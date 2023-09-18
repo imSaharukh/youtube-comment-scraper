@@ -1,18 +1,18 @@
-Certainly! Here's the complete `README.md` content in markdown format:
 
-```markdown
 # YouTube Comments Scraper
 
 This project is a web scraper that extracts comments, user IDs, and dates from a YouTube video and saves them to a CSV file.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [YouTube Comments Scraper](#youtube-comments-scraper)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Introduction
 
@@ -68,6 +68,3 @@ If you'd like to contribute to this project, please follow these guidelines:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-Feel free to copy and paste this markdown content into your `README.md` file on GitHub for your open-source project.
