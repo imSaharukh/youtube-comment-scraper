@@ -1,3 +1,6 @@
+Certainly! Here's the complete `README.md` content in markdown format:
+
+```markdown
 # YouTube Comments Scraper
 
 This project is a web scraper that extracts comments, user IDs, and dates from a YouTube video and saves them to a CSV file.
@@ -25,13 +28,30 @@ The YouTube Comments Scraper is a tool built using Puppeteer and Node.js to extr
 
 1. Clone the repository or download the ZIP file.
 
+```bash
+git clone https://github.com/yourusername/youtube-comments-scraper.git
+cd youtube-comments-scraper
+```
+
 2. Install the project dependencies using npm.
+
+```bash
+npm install
+```
 
 ## Usage
 
 1. Replace the `videoUrl` variable in the `index.js` file with the YouTube video URL from which you want to scrape comments.
 
+```javascript
+const videoUrl = 'https://www.youtube.com/watch?v=NaaSpRMBHjg&ab_channel=STILLIRISEMotivation';
+```
+
 2. Run the scraper using Node.js.
+
+```bash
+node index.js
+```
 
 3. The comments will be saved to a CSV file named `comments.csv`.
 
@@ -40,11 +60,14 @@ The YouTube Comments Scraper is a tool built using Puppeteer and Node.js to extr
 If you'd like to contribute to this project, please follow these guidelines:
 
 1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes.
-4. Push to the branch.
+2. Create a new branch for your feature: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add a new feature'`.
+4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
+```
+
+Feel free to copy and paste this markdown content into your `README.md` file on GitHub for your open-source project.
